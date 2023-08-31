@@ -94,26 +94,26 @@ package day_2;
 
 // 구구단은 n단 ~ m단 중 홀수단만 1 ~ limit 까지 곱 중 짝수곱만 출력해주세요.
 
-class LoopEx {
-    public static void main(String[] args) {
-
-        int n = 4; // 시작
-        int m = 20; // 끝
-        int limit = 10; // 곱의 개수
-
-        for (int i = n; i < m; i++) {
-            if (i % 2 == 1) {
-                System.out.println("==="+i+"단===");
-                for (int j = 1; j <= limit; j++){
-                    if (j % 2 == 0) {
-                        System.out.println(i + " * " + j + " = " + i * j);
-                    }
-                }
-            }
-        }
-
-    }
-}
+//class LoopEx {
+//    public static void main(String[] args) {
+//
+//        int n = 4; // 시작
+//        int m = 20; // 끝
+//        int limit = 10; // 곱의 개수
+//
+//        for (int i = n; i < m; i++) {
+//            if (i % 2 == 1) {
+//                System.out.println("==="+i+"단===");
+//                for (int j = 1; j <= limit; j++){
+//                    if (j % 2 == 0) {
+//                        System.out.println(i + " * " + j + " = " + i * j);
+//                    }
+//                }
+//            }
+//        }
+//
+//    }
+//}
     /*  입출력 예시
     n은 4, m은 20, limit는 10
 
@@ -142,50 +142,60 @@ class LoopEx {
 
 
 
-//class Main {
-//    public static void main(String[] args) {
+//class LoopEx {
+//    public static void main(String[] args){
+//        int height = 3;
+//        for (int i = 0; i < height; i++) {
+//            for(int j = -1; j < i; j++) {
+//                System.out.print("*");
+//            }
+//            System.out.println();
 //
-//        // 출력
-//    /*
-//    높이 : [3]
-//
-//    *
-//    **
-//    ***
-//
-//
-//    */
-//
-//    /*
-//
-//    높이 : [5]
-//
-//    *
-//    **
-//    ***
-//    ****
-//    *****
-//
-//    */
-//
-//    /*
-//
-//    높이 : [7]
-//
-//    *
-//    **
-//    ***
-//    ****
-//    *****
-//    ******
-//    *******
-//
-//    */
+//        }
 //    }
 //}
+        // 출력
+    /*
+    높이 : [3]
+
+    *
+    **
+    ***
+
+
+    */
+
+    /*
+
+    높이 : [5]
+
+    *
+    **
+    ***
+    ****
+    *****
+
+    */
+
+    /*
+
+    높이 : [7]
+
+    *
+    **
+    ***
+    ****
+    *****
+    ******
+    *******
+
+    */
 //
-//class LoopEx {
-//    public static void main(String[] args) {
+class LoopEx {
+    public static void main(String[] args) {
+
+    }
+}
 //
 //        // 출력
 //    /*
@@ -223,8 +233,7 @@ class LoopEx {
 //    *******
 //
 //    */
-//    }
-//}
+
 //
 //class LoopEx {
 //    public static void main(String[] args) {
