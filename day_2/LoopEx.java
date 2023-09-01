@@ -193,6 +193,17 @@ package day_2;
 //
 class LoopEx {
     public static void main(String[] args) {
+        int height = 3;
+        for (int i = 0; i < height; i++){
+            for(int j = -1; j < height; j++){
+                if (j < i) {
+                    System.out.print("*");
+                }
+                else {
+                    System.out.print(" ");
+                }
+            } System.out.println();
+        }
 
     }
 }
