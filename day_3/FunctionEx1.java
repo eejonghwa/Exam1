@@ -90,8 +90,20 @@ class Main {
 
     public static void greeting2(int num1, int num2){
         if (num1 == 1){
-            for(int i = 0; i <= num2; i++){
+            for(int i = 1; i <= num2; i++){
             System.out.println("안녕하세요");
+            }
+        }
+
+        if (num1 == 2){
+            for(int i = 1; i <= num2; i++){
+                System.out.println("하이~");
+            }
+        }
+
+        if (num1 == 3){
+            for(int i = 1; i <= num2; i++){
+                System.out.println("봉쥬");
             }
         }
     }

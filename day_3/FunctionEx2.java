@@ -8,7 +8,7 @@ package day_3;
 //
 //    public static int func2(int num){
 //
-//        return num;
+//
 //    }
 //
 //    public static int func3(int num){
