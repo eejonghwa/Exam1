@@ -99,22 +99,21 @@ package day_3;
 //}
 //
 //
-//class FunctionEx {
+//class FunctionEx2 {
 //
 //    public static boolean isNegative(int num){
-//        if(num < 0){
+//        if (num < 0){
+//            return true;
+//        }else{
+//            return false;
+//        }
 //
-//        }return true;
-//
-//
-
-
-
-
+//        //return num < 0;
+//    }
 //    public static void main(String[] args) {
 //
 //        // 0은 양수로 보겠습니다.
-//        int no = -1;
+//        int no = 0;
 //
 //        if(isNegative(no)) {
 //

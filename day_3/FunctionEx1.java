@@ -73,7 +73,7 @@ package day_3;
 //}
 //
 //
-class Main {
+class FunctionEx1 {
 
     public static void greeting1(int num1){
         if (num1 == 1){
@@ -90,6 +90,7 @@ class Main {
 
     public static void greeting2(int num1, int num2){
         if (num1 == 1){
+<<<<<<< HEAD
             for(int i = 1; i <= num2; i++){
             System.out.println("안녕하세요");
             }
@@ -103,10 +104,26 @@ class Main {
 
         if (num1 == 3){
             for(int i = 1; i <= num2; i++){
+=======
+            for(int i = 0; i < num2; i++){
+            System.out.println("안녕하세요");
+            }
+        }
+        if (num1 == 2){
+            for(int i = 0; i < num2; i++){
+                System.out.println("하이~");
+            }
+        }
+        if (num1 == 3){
+            for(int i = 0; i < num2; i++){
+>>>>>>> 4788221c80b54043b6235555c47d377691dec891
                 System.out.println("봉쥬");
             }
         }
     }
+
+
+
     public static void main(String[] args) {
 
         // 매개변수는 인사말 언어를 의미
