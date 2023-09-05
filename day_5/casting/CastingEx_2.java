@@ -11,3 +11,16 @@ package day_5.casting;
 //        a전사.a무기 = new 칼();
 //    }
 //}
+//class 전사{
+//    int 나이 = 20;
+//    무기 a무기;
+//}
+//class 무기{
+//
+//}
+//class 칼 extends 무기{
+//
+//}
+//class 활 extends 무기{
+//
+//}

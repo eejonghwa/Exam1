@@ -12,3 +12,17 @@ package day_5.casting;
 //        // 출력 : 활로 공격합니다.
 //    }
 //}
+//class 무기{
+//    public void 공격(){}
+//}
+//class 칼 extends 무기{
+//    public void 공격(){
+//        System.out.println("칼로 공격");
+//    }
+//
+//}
+//class 활 extends 무기{
+//    public void 공격(){
+//        System.out.println("활로 공격");
+//    }
+//}

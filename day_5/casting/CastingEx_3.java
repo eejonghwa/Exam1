@@ -30,18 +30,30 @@ package day_5.casting;
 //    // 인스턴스 변수
 //    무기 a무기;
 //
+//    void 공격(){
+//        System.out.print(이름+"이 ");
+//        a무기.공격();
+//    }
+//
 //    void 자기소개() {
 //        System.out.println("안녕하세요. 저는 " + 나이 + "살 " + 이름 + " 입니다.");
 //    }
 //}
 //
 //class 무기 {
-//
+//    public void 공격(){
+//    }
 //}
 //
 //class 칼 extends 무기 {
+//    public void 공격(){
+//        System.out.println("칼로 공격합니다.");
+//    }
 //
 //}
 //
 //class 활 extends 무기 {
-//
+//    public void 공격(){
+//        System.out.println("활로 공격합니다.");
+//    }
+//}
