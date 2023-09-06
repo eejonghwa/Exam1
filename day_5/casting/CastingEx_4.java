@@ -62,17 +62,20 @@ class 무기 {
     }
 
 }
-
+// 칼은 무기다
 class 칼 extends 무기 {
+
+
     public void 공격(){
         System.out.println("칼로 15의 데미지를 입힙니다.");
     }
-    public void 스킬사용(){
+    public void 연속베기(){
         System.out.println("연속 베기 스킬을 사용합니다. 2배(30)의 피해를 입힙니다.");
     }
 
 }
 
+// 활은 무기다
 class 활 extends 무기 {
     public void 공격(){
         System.out.println("활로 10의 데미지를 입힙니다.");

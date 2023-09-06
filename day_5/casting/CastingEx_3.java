@@ -1,7 +1,7 @@
 package day_5.casting;
 
 // 문제 : 아래가 실행되도록 해주세요.
-
+//
 //class Main {
 //    public static void main(String[] args) {
 //        전사 a전사 = new 전사();
@@ -28,11 +28,11 @@ package day_5.casting;
 //    // 인스턴스 변수
 //    int 나이;
 //    // 인스턴스 변수
-//    무기 a무기;
+//    무기 a무기;  //자바 대전제 : 변수는 같은 타입만 저장할 수 있다.
 //
 //    void 공격(){
 //        System.out.print(이름+"이 ");
-//        a무기.공격();
+//        a무기.사용();
 //    }
 //
 //    void 자기소개() {
@@ -41,19 +41,19 @@ package day_5.casting;
 //}
 //
 //class 무기 {
-//    public void 공격(){
+//    public void 사용(){
 //    }
 //}
 //
 //class 칼 extends 무기 {
-//    public void 공격(){
+//    public void 사용(){
 //        System.out.println("칼로 공격합니다.");
 //    }
 //
 //}
 //
 //class 활 extends 무기 {
-//    public void 공격(){
+//    public void 사용(){
 //        System.out.println("활로 공격합니다.");
 //    }
 //}
